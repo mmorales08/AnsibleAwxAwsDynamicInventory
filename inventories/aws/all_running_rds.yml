@@ -7,4 +7,5 @@ keyed_groups:
   - key: engine
     prefix: rds
   - key: tags
+    prefix: tag
   - key: region
