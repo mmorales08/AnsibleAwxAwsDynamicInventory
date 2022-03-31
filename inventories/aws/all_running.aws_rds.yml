@@ -3,11 +3,11 @@ regions:
   - us-east-1
 keyed_groups:
   - key: engine
-    prefix: rds
+    prefix: rds_engine
   - key: engine_version
-    prefix: rds
+    prefix: rds_engine_version
   - key: db_instance_class
-    prefix: rds
+    prefix: rds_class
   - key: tags
     prefix: tag
   - key: region
