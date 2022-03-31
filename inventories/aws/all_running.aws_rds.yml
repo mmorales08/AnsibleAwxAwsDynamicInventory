@@ -2,15 +2,13 @@ plugin: amazon.aws.aws_rds
 regions:
   - us-east-1
 keyed_groups:
-  - key: engine
-    prefix: rds_engine
   - key: engine_version
     prefix: rds_engine_version
+    parent_group: engine
+    separator: "."
   - key: db_instance_class
     prefix: rds_class
   - key: tags
     prefix: tag
   - key: region
-compose: 
-  - engine_type_version: " {{ engine ~ engine_version }} "
 strict: false
