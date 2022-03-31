@@ -13,3 +13,4 @@ keyed_groups:
   - key: region
 compose: 
   - engine_type_version: engine + engine_version
+strict: false
