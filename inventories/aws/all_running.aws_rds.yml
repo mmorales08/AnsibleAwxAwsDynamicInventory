@@ -11,3 +11,5 @@ keyed_groups:
   - key: tags
     prefix: tag
   - key: region
+compose: 
+  - engine_type_version: engine + engine_version
