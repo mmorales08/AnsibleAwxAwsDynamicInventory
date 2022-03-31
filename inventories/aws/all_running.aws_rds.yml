@@ -4,6 +4,10 @@ regions:
 keyed_groups:
   - key: engine
     prefix: rds
+  - key: engine_version
+    prefix: rds
+  - key: db_instance_class
+    prefix: rds
   - key: tags
     prefix: tag
   - key: region
