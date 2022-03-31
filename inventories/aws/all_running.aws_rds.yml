@@ -12,5 +12,5 @@ keyed_groups:
     prefix: tag
   - key: region
 compose: 
-  - engine_type_version: "{{ 'engine'_'engine_version' }}"
+  - engine_type_version: "{{ 'engine'+_+'engine_version' }}"
 strict: false
